@@ -28,7 +28,7 @@ public class BinarySearchController {
 
     private int binarySearch(int[] list, int value) {
         return binarySearchRecursive(list, value, 0, list.length - 1);
-    
+
     }
 
     private int binarySearchRecursive(int[] list, int value, int left, int right) {
